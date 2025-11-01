@@ -1,0 +1,53 @@
+enable-magisk-update = false # set this to false if you do not want to receive updates for the module in magisk app
+parallel-jobs = 1
+
+# add '' for not patching a specific app or remove it from the config
+# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
+
+# you can use rvmm-config-gen to generate a config
+
+[YTMusic]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "RVX"
+build-mode = "both"
+arch = "arm64-v8a"
+version = "8.30.54"
+excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
+
+[YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "RVX"
+build-mode = "both"
+arch = "arm64-v8a"
+version = "20.05.46"
+excluded-patches = "'Hook download actions' 'Change form factor' 'Enable gradient loading screen' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Enable debug logging'"
+
+[Duolingo]
+included-patches = "'Enable debug menu' 'Skip energy recharge ads' 'Disable ads'"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/duolingo/duolingo-duolingo/"
+patches-source = "revanced/revanced-patches"
+integrations-source = "revanced/revanced-integrations"
+rv-brand = "RVX"
+dpi = "120-640dpi"
+
+[Photomath]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photomath/"
+included-patches = "'Spoof device ID' 'Hide update popup' 'Unlock plus'"
+patches-source = "revanced/revanced-patches"
+integrations-source = "revanced/revanced-integrations"
+rv-brand = "RVX"
+dpi = "120-640dpi"
+
+[GPhotos]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+included-patches = "'Enable DCIM folders backup control' 'Spoof features' 'GmsCore support'"
+patches-source = "revanced/revanced-patches"
+integrations-source = "revanced/revanced-integrations"
+rv-brand = "RVX"
+arch = "arm64-v8a"
+build-mode = "both"
+
