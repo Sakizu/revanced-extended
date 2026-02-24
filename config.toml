@@ -11,7 +11,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 rv-brand = "RVX"
-build-mode = "both"
+build-mode = "apk"
 version = "8.30.54"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 
@@ -20,11 +20,12 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 rv-brand = "RVX"
-build-mode = "both"
+build-mode = "apk"
 version = "20.05.46"
 excluded-patches = "'Hook download actions' 'Change form factor' 'Enable gradient loading screen' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Enable debug logging'"
 
 [Duolingo]
+enabled = false 
 included-patches = "'Enable debug menu' 'Skip energy recharge ads' 'Disable ads'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/duolingo/duolingo-duolingo/"
 patches-source = "revanced/revanced-patches"
@@ -33,6 +34,7 @@ rv-brand = "RVX"
 dpi = "120-640dpi"
 
 [Photomath]
+enabled = false 
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photomath/"
 included-patches = "'Spoof device ID' 'Hide update popup' 'Unlock plus'"
 patches-source = "revanced/revanced-patches"
@@ -41,6 +43,7 @@ rv-brand = "RVX"
 dpi = "120-640dpi"
 
 [GPhotos]
+enabled = false 
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 included-patches = "'Enable DCIM folders backup control' 'Spoof features' 'GmsCore support'"
 patches-source = "revanced/revanced-patches"
